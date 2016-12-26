@@ -9,7 +9,7 @@ Two scripts are included that work together and in this order:
 * result_scraper.py 
 
 
-***match_scraper.py*** grabs the football matches from [this](http://www.over25tips.com/both-teams-to-score-tips) webpage and writes them in an .xlsx file, if they are not *already* written. If the .xlsx file does not exist, it creates it.
+***match_scraper.py*** grabs the football matches, that score over 20 Points, from [this](http://www.over25tips.com/both-teams-to-score-tips) webpage and writes them in an .xlsx file, if they are not *already* written. If the .xlsx file does not exist, it creates it.
 
 ***result_scraper.py*** checks the football matches in the .xlsx file, grabs their betting odds and game results from [this](http://www.oddsportal.com/) site and appends them in the file as well.
 
@@ -28,5 +28,5 @@ Two scripts are included that work together and in this order:
 
 ## Dependencies ##
 
-Except from the modules you'll need to install, like 'BeautifoulSoup' and 'openpyxl', you'll need to download 'PhantomJS'.
-Add PhantomJS.exe to your PATH or copy it in the same folder as the *result_scraper.py* script.
+Except from the modules you'll need to install, like `BeautifoulSoup` and `openpyxl`, you'll need to download `PhantomJS`.
+Add `PhantomJS.exe` to your PATH or copy it in the same folder as the *result_scraper.py* script.
