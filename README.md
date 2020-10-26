@@ -21,7 +21,7 @@ Two scripts are included that work together and in this order:
 * Use UTC timezone on all websites
 * Loads JavaScript content on oddsportal.com with PhantomJS
 * Visually marks postponed games for deletion inside the spreadsheet file
-* Visually marks non-found games inside the spreadsheet file. Usually an inaccurate game date by over25tips.com is the culprit.
+* Visually marks non-found games inside the spreadsheet file. Usually an inaccurate game date by over25tips.com is the culprit
 * Converts misloaded GB odds (7/30) to EU fractual odds (1.23)
 * Calculates missing odds in oddsportal.com by averaging the rest of the odds (which is the mathematically correct way)
 * Keeps backup spreadsheet (data_bak.xlsx)
